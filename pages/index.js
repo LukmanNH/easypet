@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <div className="container">
       {/* -- NAVBAR -- */}
-      <section></section>
+      <section>
+        <img src="logo.svg" />
+      </section>
       {/* -- END OF NAVBAR -- */}
     </div>
   );
