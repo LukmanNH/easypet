@@ -195,6 +195,58 @@ export default function Home() {
         </div>
       </section>
       {/* -- END OF DOWNLOAD -- */}
+
+      {/* -- Testimonials -- */}
+
+      <section className="container-w-full px-4 sm:px-5 md:px-8 lg:px-48 py-[100px] bg-red-50 text-center mb-20">
+        TESTIMONIALS CAROUSEL SHOULD BE HERE
+      </section>
+
+      {/* -- END OF Testimonials -- */}
+
+      {/* -- FOOTER -- */}
+      <div className="right-16 absolute">
+        <img src="img-ornamen.svg" className="translate-y-[-40px]"></img>
+      </div>
+      <section className="container-w-full px-4 sm:px-5 md:px-8 lg:px-48 py-[100px] bg-footer">
+        <div className="grid grid-cols-4 gap-20">
+          <div className="place-self-center">
+            <img src="/white_logo.svg" />
+            <p className="font-light text-white text-lg mt-3">
+              Easypet make people easier while taking care and improve the
+              quality of their pets' lives
+            </p>
+            <p className="font-light text-white text-base mt-14">
+              ©Easypet 2022. All rights reserved
+            </p>
+          </div>
+          <div className="text-white">
+            <h5 className="font-bold text-xl mb-6">Company</h5>
+            <p className="font-light text-lg">About</p>
+            <p className="font-light text-lg">Testimonials</p>
+            <p className="font-light text-lg">Find a Doctor</p>
+            <p className="font-light text-lg">Apps</p>
+          </div>
+          <div className="text-white">
+            <h5 className="font-bold text-xl mb-6">Region</h5>
+            <p className="font-light text-lg">Indonesia</p>
+            <p className="font-light text-lg">Singapore</p>
+            <p className="font-light text-lg">Hongkong</p>
+            <p className="font-light text-lg">Canada</p>
+          </div>
+          <div className="text-white">
+            <h5 className="font-bold text-xl mb-6">Help</h5>
+            <p className="font-light text-lg">Help center</p>
+            <p className="font-light text-lg">Contact support</p>
+            <p className="font-light text-lg">Instruction</p>
+            <p className="font-light text-lg">How it works</p>
+          </div>
+        </div>
+      </section>
+      <div className="left-0 absolute -translate-y-32">
+        <img src="img-ornamen.svg"></img>
+      </div>
+      {/* -- END OF FOOTER -- */}
     </>
   );
 }
