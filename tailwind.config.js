@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   mode: "jit",
   content: [
@@ -11,5 +13,16 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        ".bg-services": {
+          "background-image": "url(/bg-services.svg)",
+        },
+        ".bg-download": {
+          "background-image": "url(/img-ornamen.svg)",
+        },
+      });
+    }),
+  ],
 };

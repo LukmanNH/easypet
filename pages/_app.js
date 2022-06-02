@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
+        <title>Easy Pet</title>
       </Head>
       <Component {...pageProps} />
     </>
